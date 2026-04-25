@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    background-color: lightblue;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    /* color: white; */
+    padding: 15px 40px;
+    background-color: lightcyan;
+    width: 100%;
+    margin: 15px;
+    box-sizing: border-box;
+    /* background: transparent; */
+}
+.navleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    gap: 15px;
+}
+
+.navright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 40px;
+
+}
+a{
+    color: black;
+}
+
+
+.navleft img {
+    height: 65px;
+    width: 65px;
+    border-radius: 8px;
+}
+.navright h5{
+    display: none;
+}
+
+
+
+@media (max-width:900px) {
+   nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    /* color: white; */
+    padding: 15px 20px;
+    background-color: lightcyan;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
+    /* background: transparent; */
+}
+.navleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    gap: 10px;
+}
+.navright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 25px;
+
+}
+.navleft img {
+    height: 45px;
+    width: 45px;
+    border-radius: 8px;
+}
+.navright h5{
+    display: none;
+}
+    
+}
+@media (max-width:600px) {
+       nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    /* color: white; */
+    padding: 8px 12px;
+    background-color: lightcyan;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px ;
+    /* background: transparent; */
+}
+.navleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    gap: 5px;
+}
+
+.navright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 20px;
+
+}
+
+.navleft img {
+    height: 28px;
+    width: 28px;
+    border-radius: 8px;
+}.navright h5{
+    display: block;
+    font-size: 15px;
+    
+}
+    .navright h6{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+footer{
+background-color:black
+;
+color: white;
+padding: 20px 50px;
+
+}
+.link h2{
+    font-size: 50px;
+}
+.links h4 a{
+    color:lightblue;
+}
+
+.para{
+   margin: 15px 25px 15px 25px;
+    width: 50%;
+    font-size: 30px;
+}
+.links{
+margin-top: 10px;
+padding-left: 10px;
+font-size: 30px;
+
+}
+
+
+@media (max-width:900px) {
+ footer{
+background-color:black
+;
+color: white;
+padding: 20px 50px;
+
+}
+.link h2{
+    font-size: 38px;
+}
+.links h4 a{
+    color:lightblue;
+}
+
+.para{
+   margin: 15px 25px 15px 15px;
+    width: 50%;
+    font-size: 20px;
+}
+.links{
+margin-top: 10px;
+padding-left: 10px;
+font-size: 20px;
+
+}
+
+    
+}
+@media (max-width:600px) {
+    footer{
+background-color:black
+;
+color: white;
+padding: 20px 50px;
+
+}
+.link h2{
+    font-size: 25px;
+}
+.links h4 a{
+    color:lightblue;
+}
+
+.para{
+   margin: 10px 20px 20px 15px;
+    width: 50%;
+    font-size: 12px;
+}
+.links{
+margin-top: 5px;
+padding-left: 10px;
+font-size: 12px;
+
+}
+    
+}
+
+
+.main .hero{
+    height: 100vh;
+    background-image:url(./assest/main\ img.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:red;
+
+}
+.main .hero-text{
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.main .center{
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+.main .hero-text button{
+    background-color:orangered;
+    font-size: 30px;
+    padding: 15px 35px;
+    border-radius: 23px;
+    cursor: pointer;
+
+  
+ margin-top: 15px;
+}
+
+@media (max-width:900px) {
+    .main .hero{
+    height: 100vh;
+    background-image:url(./assest/main\ img.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:red;
+
+}
+.main .hero-text{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.main .center{
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+.main .hero-text button{
+    background-color:orangered;
+    font-size: 22px;
+    padding: 11px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+
+  
+ margin-top: 12px;
+}
+
+    
+}
+
+@media (max-width:600px) {
+    .main .hero{
+    height: 100vh;
+    background-image:url(./assest/main\ img.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:red;
+
+}
+.main .hero-text{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.main .center{
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+.main .hero-text button{
+    background-color:orangered;
+    font-size: 15px;
+    padding: 8px 18px;
+    border-radius: 11px;
+    cursor: pointer;
+
+  
+ margin-top: 8px;
+}
+
+    
+}
+
+
+
+
+
+.contect .hero{
+    height: 60vh;margin: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contect .hero h1{
+    font-size: 60px;
+}
+.contect .container{
+    height: 40vh;
+    color: white;
+    background-color: black;
+    margin: 20px;
+    padding: 25px;
+    font-size: 30px;
+}
+@media (max-width:900px) {
+
+    .contect .hero{
+    height: 60vh;
+    margin: 17px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contect .hero h1{
+    font-size: 50px;
+}
+.contect .container{
+    height: 60vh;
+    color: white;
+    background-color: black;
+    margin: 18px;
+    padding: 30px;
+    font-size: 25px;
+}
+}
+@media (max-width:600px) {
+    
+    .contect .hero{
+    height: 45vh;
+    margin: 17px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contect .hero h1{
+    font-size: 30px;
+}
+.contect .container{
+    height: 60vh;
+    color: white;
+    background-color: black;
+    margin: 12px;
+    padding: 25px;
+    font-size: 20px;
+}
+    
+}
+ 
+.services .hero {
+ height: 60vh;
+ margin: 20px;
+ padding: 20px 40px 20px 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.services .hero h1{
+    font-size: 60px;
+}
+.services .hero p{
+    font-size: 35px;
+}
+
+@media (max-width:900px) {
+    .services .hero {
+ height: 60vh;
+ margin: 20px;
+ padding: 20px 40px 20px 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.services .hero h1{
+    font-size: 48px;
+}
+.services .hero p{
+    font-size: 28px;
+}
+    
+}
+@media (max-width:600px) {
+    
+       .services .hero {
+ height: 60vh;
+ margin: 5px;
+ padding: 20px 40px 20px 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.services .hero h1{
+    font-size: 28px;
+}
+.services .hero p{
+    font-size: 15px;
+}
+}
+
+#about .hero{
+    background-color: black;
+    color: white;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+#about .hero h1{
+    font-size: 60px;
+
+}
+#about .hero p{
+    font-size: 40px;
+
+}
+
+#about .container{
+
+    background-color: black;
+    color: white;
+    height: 60vh;
+    padding: 40px;
+    margin: 20px;
+
+}
+#about .container h1{
+    font-size: 60px;
+
+}
+#about .container p {
+
+    font-size: 40px;
+}
+@media (max-width:900px) {
+    #about .hero{
+    background-color: black;
+    color: white;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+#about .hero h1{
+    font-size: 45px;
+
+}
+#about .hero p{
+    font-size: 30px;
+
+}
+
+#about .container{
+
+    background-color: black;
+    color: white;
+    height: 55vh;
+    padding: 32px;
+    margin: 14px;
+
+}
+#about .container h1{
+    font-size: 45px;
+
+}
+#about .container p {
+
+    font-size: 30px;
+}
+
+    
+}
+@media (max-width:600px) {
+    #about .hero{
+    background-color: black;
+    color: white;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 8px;
+    flex-direction: column;
+    text-align: center;
+}
+#about .hero h1{
+    font-size: 25px;
+
+}
+#about .hero p{
+    font-size: 15px;
+
+}
+
+#about .container{
+
+    background-color: black;
+    color: white;
+    height: 60vh;
+    padding: 20px;
+    margin: 8px;
+
+}
+#about .container h1{
+    font-size: 25px;
+
+}
+#about .container p {
+
+    font-size: 15px;
+}
+    
+}
